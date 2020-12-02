@@ -22,13 +22,13 @@ client.on("message", msg =>{
         if(rnd >= 5){
             msg.channel.send("i love you yesikoooooo :heart:");
         }else{
-            msg.reply("Okay :thumbsup:");
             msg.channel.send("I love you yesikooooooooooo");
         }
     }
     if(msg.content === "I love you yesikooooooooooo"){
         msg.channel.send(":heart:");
     }
+    
     if(msg.content === "say i love you to arel"){
         msg.channel.send("i love you arellll :heart:");
     }
