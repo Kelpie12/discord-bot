@@ -5,14 +5,15 @@
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
-    "devStart" : "nodemon bot.js"
+    "devStart": "nodemon bot.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
